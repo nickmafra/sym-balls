@@ -1,7 +1,7 @@
 {
     "name": "SymBalls Game",
     "short_name": "SymBalls",
-    "start_url": ".",
+    "start_url": "/sym-balls/",
     "display": "fullscreen",
     "background_color": "black",
     "description": "A Game of Composing Permutations.",
