@@ -13,8 +13,8 @@
         ]
     },
     {
-        "title": "Try it",
-        "id": "intro_dock",
+        "title": "Locked Items!",
+        "id": "intro_locked",
         "length": 6,
         "generatingSet": [
             "(1,2)(3,4)",
@@ -22,14 +22,16 @@
             "(3,4)(5,6)"
         ],
         "initialItems": [
+            "(1,2)",
             "(3,4)",
+            "(5,6)",
             "(1,2)(5,6)",
             "(1,2)(3,4)(5,6)"
         ]
     },
     {
         "title": "Order matters!",
-        "id": "non-commutative",
+        "id": "intro_order",
         "length": 3,
         "initialItems": [
             "(1,2)",
