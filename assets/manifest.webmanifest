@@ -1,17 +1,15 @@
 {
-    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "name": "SymBalls",
+    "name": "SymBalls Game",
     "short_name": "SymBalls",
     "start_url": ".",
-    "display_override": ["fullscreen", "minimal-ui"],
-    "display": "standalone",
-    "background_color": "#000",
+    "display": "fullscreen",
+    "background_color": "black",
     "description": "A Game of Composing Permutations.",
     "orientation":  "landscape",
     "icons": [
         {
-          "src": "assets/ico48.png",
-          "sizes": "48x48",
+          "src": "assets/ico168.png",
+          "sizes": "168x168",
           "type": "image/png"
         }
     ]
