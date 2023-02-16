@@ -8,7 +8,7 @@
     "orientation":  "landscape",
     "icons": [
         {
-          "src": "assets/ico168.png",
+          "src": "ico168.png",
           "sizes": "168x168",
           "type": "image/png"
         }
