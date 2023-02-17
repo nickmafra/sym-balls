@@ -1,19 +1,22 @@
 [
     {
-        "title": "Merge any items",
+        "title": "level.intro.name",
         "id": "intro",
-        "length": 6,
+        "length": 9,
         "initialItems": [
             "(1,2)",
             "(1,2)",
             "(3,4)",
-            "(3,4)",
+            "(3,4)(5,6)",
+            "(3,4)(5,6)",
             "(5,6)",
-            "(5,6)"
+            "(9,8,7)",
+            "(1,2)",
+            "(1,2)(3,4)(5,6)(7,8,9)"
         ]
     },
     {
-        "title": "Locked Items!",
+        "title": "level.intro_locked.name",
         "id": "intro_locked",
         "length": 6,
         "generatingSet": [
@@ -30,7 +33,7 @@
         ]
     },
     {
-        "title": "Order matters!",
+        "title": "level.intro_order.name",
         "id": "intro_order",
         "length": 3,
         "initialItems": [
@@ -40,8 +43,23 @@
         ]
     },
     {
-        "title": "Experimental",
-        "id": "id0",
+        "title": "level.intro_cycles.name",
+        "id": "intro_cycles",
+        "length": 10,
+        "generatingSet": [
+            "(9,10)",
+            "(6,7,8)",
+            "(1,2,3,4,5)"
+        ],
+        "initialItems": [
+            "(9,10)",
+            "(6,7,8)",
+            "(1,2,3,4,5)"
+        ]
+    },
+    {
+        "title": "level.test_experimental.name",
+        "id": "test_experimental",
         "length": 6,
         "generatingSet": [
             "(1,2)(3,4)(5,6)",
@@ -52,8 +70,8 @@
         ]
     },
     {
-        "title": "Many items",
-        "id": "id?",
+        "title": "level.test_many_items.name",
+        "id": "test_many_items",
         "length": 6,
         "initialItems": [
             "(1,2)(3,4)(5,6)",
