@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksym_balls=self.webpackChunksym_balls||[]).push([[689],{689:(s,e,p)=>{s.exports=p.p+"assets/messages-pt-BR.properties"}}]);
