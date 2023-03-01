@@ -1,6 +1,7 @@
 [
     {
         "title": "level.intro.name",
+        "tip": "level.intro.tip",
         "id": "intro",
         "length": 9,
         "initialItems": [
@@ -17,6 +18,7 @@
     },
     {
         "title": "level.intro_locked.name",
+        "tip": "level.intro_locked.tip",
         "id": "intro_locked",
         "length": 6,
         "generatingSet": [
@@ -34,6 +36,7 @@
     },
     {
         "title": "level.intro_order.name",
+        "tip": "level.intro_order.tip",
         "id": "intro_order",
         "length": 3,
         "initialItems": [
@@ -44,6 +47,7 @@
     },
     {
         "title": "level.intro_cycles.name",
+        "tip": "level.intro_cycles.tip",
         "id": "intro_cycles",
         "length": 10,
         "generatingSet": [
@@ -58,15 +62,19 @@
         ]
     },
     {
-        "title": "level.test_experimental.name",
-        "id": "test_experimental",
-        "length": 6,
+        "title": "level.test_quaternions.name",
+        "id": "test_quaternions",
+        "length": 8,
         "generatingSet": [
-            "(1,2)(3,4)(5,6)",
-            "(1,3)"
+            "(1,3,2,4)(5,8,6,7)",
+            "(1,5,2,6)(7,4,8,3)",
+            "(1,7,2,8)(3,6,4,5)"
         ],
         "initialItems": [
-            "(1,2,3,4)(5,6)"
+            "(1,3,2,4)(5,8,6,7)",
+            "(1,5,2,6)(7,4,8,3)",
+            "(1,7,2,8)(3,6,4,5)",
+            "(1,2)(3,4)(5,6)(7,8)"
         ]
     },
     {
